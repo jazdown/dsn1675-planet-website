@@ -55,7 +55,7 @@ img {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 20em)/*small*/ {
+@media only screen and (min-width: 25em)/*small*/ {
     
     .nav {
         text-align: center;
@@ -64,18 +64,9 @@ img {
     .nav li {
         display: inline-block;
     }
-    
-    .unit-s-1 {
-        width: 100%;
-    }
-    
-    .unit-s-1-2 {
-        width: 50%;
-        float: left;
-    }
 }
 
-@media only screen and (min-width: 50em)/*med*/ {
+@media only screen and (min-width: 38em)/*med*/ {
     
     .nav {
         float: left;
@@ -90,33 +81,6 @@ img {
     .top-bar {
         overflow: hidden;
     }
-    
-    .unit-m-1-2 {
-        width: 50%;
-        float: left;
-    }
-    
-    .unit-m-1-3 {
-        width: 33%;
-        float: left;
-    }
-    
 }
 
-@media only screen and (min-width: 65em)/*large*/ {
-    
-    .unit-l-1-3 {
-        width: 33%;
-    }
-    
-    .unit-l-1-2 {
-        width: 25%;
-    }
-    
-    .unit-l-1 {
-        width: 100%;
-    }
-    
-    
-}
 
