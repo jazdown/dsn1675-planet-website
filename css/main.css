@@ -61,6 +61,12 @@ img {
 .grid-one {
     overflow: hidden;
 }
+
+.intro {
+    background-color: #E2E2E2;
+    text-align: center;
+}   
+
 @media only screen and (min-width: 25em)
 /*small*/
 
