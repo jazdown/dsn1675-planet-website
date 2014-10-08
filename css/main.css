@@ -46,18 +46,19 @@ img {
     padding: 0;
 }
 .nav {
-    padding: 0;
     list-style-type: none;
+    padding: 0;
 }
 .nav a {
     text-decoration: none;
     color: #36F;
+    display: block;
 }
-.top-bar {
+.page-bar {
     background-color: #ccc;
-    margin: 0;
-    padding: 1rem 0;
+    overflow: hidden;
 }
+
 .grid-one {
     overflow: hidden;
 }
@@ -65,7 +66,20 @@ img {
 .intro {
     background-color: #E2E2E2;
     text-align: center;
-}   
+}
+
+.mini-pics {
+    background-color: #EFEFEF;
+}
+
+.page-title {
+    text-align: center;
+    background-color: #E2E2E2;
+}
+    
+.characteristics {
+    background-color: #E2E2E2;
+}
 
 @media only screen and (min-width: 25em)
 /*small*/
@@ -89,8 +103,5 @@ img {
     .venus {
         float: left;
         margin: 0;
-    }
-    .top-bar {
-        overflow: hidden;
     }
 }
