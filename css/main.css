@@ -28,6 +28,31 @@ html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
 }
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%
+    }
+    
+}
+
 *,
 *:before,
 *:after {
@@ -81,21 +106,24 @@ img {
     background-color: #E2E2E2;
 }
 
-@media only screen and (min-width: 25em)
-/*small*/
+.discovery {
+    background-color: #E2E2E2;
+}
 
-{
+@media only screen and (min-width: 25em) {
     .nav {
         text-align: center;
     }
+    
     .nav li {
         display: inline-block;
     }
+    
+    .copyright {
+        text-align: center;
+    }
 }
-@media only screen and (min-width: 38em)
-/*med*/
-
-{
+@media only screen and (min-width: 38em) {
     .nav {
         float: left;
         overflow: hidden;
@@ -104,4 +132,43 @@ img {
         float: left;
         margin: 0;
     }
+    
+    .nav-footer {
+        float: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
+    
+    .middle-p {
+        padding-right: 1.5em;
+    }
+        
 }
+
+@media only screen and (min-width: 60em) {
+    
+        
+    .data-list dd {
+        float: left;
+    }
+    
+    .data-list dt {
+        float: left;
+        clear: both;
+        width: 14em;
+    }
+    
+    .moon-info {
+        padding-left: 1em;
+    }
+    
+    .middle-p {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    
+
+
