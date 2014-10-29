@@ -81,11 +81,6 @@ img {
 }
 .page-bar {
     background-color: #ccc;
-    overflow: hidden;
-}
-
-.grid-one {
-    overflow: hidden;
 }
 
 .intro {
@@ -183,8 +178,8 @@ It is acceptable to remove the focus rectangle for mouse users, but NEVER for ke
 @media only screen and (min-width: 38em) {
     .nav {
         float: left;
-        overflow: hidden;
     }
+    
     .venus {
         float: left;
         margin: 0;
