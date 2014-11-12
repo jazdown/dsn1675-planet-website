@@ -103,17 +103,12 @@ img {
     color: #E8E8E8;
 }
 
-.orbital {
-    font-family: 'Syncopate', sans-serif;
-}
-
-.physical {
+.subheading {
     font-family: 'Syncopate', sans-serif;
 }
 
 .number-data {
-    font-family: 'Syncopate', sans-serif;
-    color: #FFF
+    color: #FFF;
 }
 
 .page-title {
@@ -123,19 +118,11 @@ img {
 }
     
 .characteristics {
-    background-color: #B8B8B8;
-}
-
-.discovery {
-    background-color: #B8B8B8;
+    background-color: #A8A8A8;
 }
 
 .venus-moon-span {
     display: none;
-}
-
-.fake-moon {
-    font-family: 'Syncopate', sans-serif;
 }
 
 a:focus {
@@ -182,10 +169,14 @@ It is acceptable to remove the focus rectangle for mouse users, but NEVER for ke
 
 .nav a:hover,
 .nav a:focus,
-.nav a:active {
+.nav a:active,
+.nav .nav current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
     background-color: #9CF;
     color: #303030;
     border-radius: 8px;
+    
 }
 
 .copyright {
@@ -218,6 +209,11 @@ input + label {
 .interest-join {
     text-align: center;
     font-family: 'Enriqueta', serif;
+    color: #FFF;
+}
+
+.sign-up-below {
+    color: #9CF;
 }
 
 input[type="text"],
@@ -238,8 +234,9 @@ textarea {
 }
 
 button {
+    padding: 0.5em;
     font-size: 1.5em;
-    color: #FFF;
+    color: #303030;
     background-color: #9CF;
     border-radius: 8px;
     font-family: 'Syncopate', sans-serif;
