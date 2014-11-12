@@ -10,7 +10,13 @@
     <link href="css/typography.css" rel="stylesheet">
 </head>
 
-<body>
+<body role="main">
+    
+    <ul class="skip-links">
+        <li><a href="#main">Jump to Main Content</a></li>
+        <li><a href="#navigation">Jump to Navigations</a></li>
+    </ul>
+    
     <header class="page-bar island-1-2">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
@@ -33,9 +39,58 @@
             </div>
         </div>
     </header>
+    
+    <h2 class="zetta page-title island-1-2 push">Exploration</h2>
+    
+    <form action="thanks.thml" method="post" class="join-form island">
+    
+        <h2 class="join-venus-exploration exa">Join Venus's Exploration Team</h2>
 
-    <h2 class="exa page-title island-1-2 push">Exploration</h2>
+        <p class="interest-join mega">Are you interested in exploring Venus with a group of extremely talented people? <i>Sign up below!</i></p>
 
+        <div class="push-1-2 mega">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="push-1-2 mega">
+            <label for="email">E-mail</label></label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="push-1-2 mega">
+            <label for="age">Age</label>
+            <input type="number" id="age">
+        </div>
+
+
+        <div class="push mega">
+            <p class="push-0"><i>Your level of awesomeness:</i></p>
+            <span class="radio">
+                <input type="radio" id="meh" name="level-of-awesomeness">
+                <label for="meh">Meh…</label>
+            </span>
+            <span class="radio">
+                <input type="radio" id="pretty-good" name="level-of-awesomeness">
+                <label for="pretty-good">Pretty good.</label>
+            </span>
+            <span class="radio">
+                <input type="radio" id="super" name="level-of-awesomeness">
+                <label for="super">Super!</label>
+            </span>
+        </div>
+
+        <div class="push mega">
+            <label for="explain">Explain why you deserve to go:</label>
+            <textarea id="explain" class="explain-textarea"></textarea>
+        </div>
+
+        <div class="sign-up-button push-1-2">    
+            <button>Sign Up</button>
+        </div>
+    
+    </form>
+    
     <footer class="page-bar island-1-2">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">

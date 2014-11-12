@@ -158,6 +158,54 @@ It is acceptable to remove the focus rectangle for mouse users, but NEVER for ke
     color: #FFF;
 }
 
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.join-venus-exploration {
+    text-align: center;
+}
+
+.interest-join {
+    text-align: center;
+}
+
+.join-form {
+    background-color: #E2E2E2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+}
+
+textarea {
+    height: 20em;
+}
+
+.sign-up-button {
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+input {
+    font-size: 1.5em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
 @media only screen and (min-width: 25em) {
     .nav {
         text-align: center;
