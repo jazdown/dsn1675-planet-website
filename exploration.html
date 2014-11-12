@@ -8,16 +8,18 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
 </head>
 
-<body role="main">
+<body>
     
     <ul class="skip-links">
         <li><a href="#main">Jump to Main Content</a></li>
         <li><a href="#navigation">Jump to Navigations</a></li>
     </ul>
     
-    <header class="page-bar island-1-2">
+    <header class="page-bar island-1-2" role="banner" id="top">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
                 <h1 class="venus peta push-0">Venus</h1>
@@ -40,11 +42,13 @@
         </div>
     </header>
     
-    <h2 class="zetta page-title island-1-2 push">Exploration</h2>
+<main role="main" id="main">
     
-    <form action="thanks.thml" method="post" class="join-form island">
+    <h2 class="exa page-title island-1-2 push">Exploration</h2>
     
-        <h2 class="join-venus-exploration exa">Join Venus's Exploration Team</h2>
+    <form action="thanks.html" method="post" class="join-form island">
+    
+        <h2 class="decorate-h2 join-venus-exploration exa">Join Venus's Exploration Team</h2>
 
         <p class="interest-join mega">Are you interested in exploring Venus with a group of extremely talented people? <i>Sign up below!</i></p>
 
@@ -54,7 +58,7 @@
         </div>
 
         <div class="push-1-2 mega">
-            <label for="email">E-mail</label></label>
+            <label for="email">E-mail</label>
             <input type="email" id="email">
         </div>
 
@@ -91,10 +95,12 @@
     
     </form>
     
+</main>
+    
     <footer class="page-bar island-1-2">
         <div class="grid grid-middle">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
-                <p class="micro push-0 copyright">© 2014 Venus Planetary Consortium</p>
+                <p class="micro push-0 copyright">© 2014 Venus Planetary Consortium <a href="#top" class="top">Top</a></p>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
                 <nav class="nav-footer">
